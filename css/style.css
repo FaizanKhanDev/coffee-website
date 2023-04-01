@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+/* body {
+   background-image: url(); 
+} */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111016;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+nav h1 {
+    margin-left: 50px;
+    color: #fff;
+}
+nav ul {
+    display: flex;
+    margin-right: 50px;
+    list-style-type: none;
+}
+nav ul li {
+    margin-left: 50px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+.mainhome {
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1a1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-content  {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+
+    
+}
+   
+.home-col-1 {
+    width: 700px;
+    align-self: center;
+}
+.home-col-1 h1  {
+    color: #fff;
+}
+.home-col-1 p  {
+    color: #fff;
+    line-height: 40px;
+}
+.home-col-1 img {
+    width: 700px;
+}
+.product-main{ 
+    width: 100%;
+    height: auto;
+    background-color: #111016;
+}
+.product-con {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+.product-con img {
+    width: 100%;
+}
+.product-col-1 {
+    width: 400px;
+    margin: 10px;
+    background-color: #212529;
+}
+.product-col-1 h3 {
+    color: #fff;
+    padding: 15px;
+
+}
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #1a1a1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons p {
+    color: #fff;
+}
+.social-icons ion-icon {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 70px;
+
+}
+@media(min-width:527px) and (max-width:762px) {
+    .home-content  {
+      flex-direction: column-reverse;
+    
+        
+    }
+    .home-col-1 {
+        width: 500px;
+
+
+    }
+    .home-col-1 img {
+        width: 500px;
+    }
+}
+@media(min-width:27px) and (max-width:526px) {
+    .home-content  {
+        flex-direction: column-reverse;
+      
+          
+      }
+    .home-col-1 {
+        width: 350px;
+    
+
+
+    }
+
+    .home-col-1 img {
+        width: 350px;
+    }
+}
